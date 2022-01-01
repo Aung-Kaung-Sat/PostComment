@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="commentInputContainer">
+            <div class="introText">In this post comment page, the comments are still remained even though you reload the page.</div>
+            <textarea class="form-control commentInput" placeholder="Enter your comment"></textarea>
+            <div class="warningText">
+                To clear local storage and post comment, Click the red one.<br>
+                Here you can only post 20 comments.
+            </div>
+            <div class="buttonContainer">
+                <button class="btn btn-info">Post comment</button>
+                <button class="btn btn-danger">Clear</button>
+            </div>
+            <div class="commentContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

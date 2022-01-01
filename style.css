@@ -1,0 +1,62 @@
+body {
+    background-color: #343a50;
+}
+
+.introText {
+    color: wheat;
+    text-align: center;
+    font-size: 14px;
+}
+
+.commentInputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentInput {
+    width: 50%;
+    height: 100px;
+    margin: 15px 0 20px;
+}
+
+.commentContainer {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.commentBox {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    background-color: rgb(224, 61, 110);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.btn {
+    margin: 0 10px;
+}
+
+.warningText {
+    color: rgb(255, 129, 129);
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .commentInput {
+        width: 90%;
+    }    
+
+    .commentContainer {
+        width: 100%;
+    }
+}
